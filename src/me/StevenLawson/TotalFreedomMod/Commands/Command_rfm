@@ -52,7 +52,7 @@ public class Command_rfm extends RFM_Command
             return true;
         }
 
-        playerMsg("RubyFreedomMod for 'Ruby Freedom', the all-op server!.", ChatColor.GOLD);
+        playerMsg("RubyFreedomMod", ChatColor.GREE);
         playerMsg(String.format("Version "
                 + ChatColor.BLUE + "%s.%s" + ChatColor.GOLD + ", built "
                 + ChatColor.BLUE + "%s" + ChatColor.BLUE + " by "
@@ -62,7 +62,7 @@ public class Command_rfm extends RFM_Command
                 TotalFreedomMod.buildDate,
                 TotalFreedomMod.buildCreator), ChatColor.GOLD);
         playerMsg("Running on " + TFM_ConfigEntry.SERVER_NAME.getString() + ".", ChatColor.GOLD);
-        playerMsg("Created by DatGammingKing, xEpson and faleso.", ChatColor.GOLD);
+        playerMsg("Created by DatGamingKing And xEpson.", ChatColor.GOLD);
         playerMsg("Visit " + ChatColor.AQUA + "http://rfreedom.us.to/" + ChatColor.GREEN + " for more information.", ChatColor.GREEN);
 
         return true;
