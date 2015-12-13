@@ -20,6 +20,7 @@ server:
   # All players who show up as owner
   owners:
     - falceso
+    - CommissionerJoe
 
   # URL players should appeal for bans at
   ban_url: http://rfreedom.us.to
