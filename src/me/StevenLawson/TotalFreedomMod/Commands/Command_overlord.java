@@ -32,7 +32,7 @@ public class Command_overlord extends TFM_Command
             }
             catch (Exception ignored)
             {
-                playerMsg(ChatColor.WHITE + "Unknown command. Type \"help\" for help.");
+                playerMsg(ChatColor.WHITE + "Unknown command. Type \"/help\" for help.");
                 return true;
             }
         }
